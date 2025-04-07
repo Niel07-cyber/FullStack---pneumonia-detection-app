@@ -92,16 +92,10 @@ Backend	✅
 AI Model Training	✅
 Model Generation Instructions	✅
 Full Stack Deployment (Localhost)	✅
+
 🙏 Acknowledgments
 Special thanks to all open-source contributors in the fields of Machine Learning, FastAPI, and Next.js who make building projects like this possible.
 
-📬 Contact
-If you have any questions, feel free to reach out:
 
-GitHub: @YOUR_USERNAME
-
-yaml
-Copy
-Edit
 
 ---
