@@ -40,7 +40,7 @@ async def predict(file: UploadFile = File(...)):
     prediction = model.predict(img_array)
 
     # Interpret result
-    result = "Pneumonia" if prediction[0][0] < 0.5 else "Normal"
+    result = "Pneumonia" if prediction[0][0] > 0.5 else "Normal"
     
     return {"prediction": result}
 
