@@ -17,9 +17,6 @@ This project is a complete full-stack application for detecting pneumonia from c
 
 projetai/ ├── demo-backend/ # FastAPI Backend │ ├── main.py │ ├── pneumonia_detector.h5 # Model file (must be created manually) │ ├── radiograph_ai.ipynb # Notebook to train the model │ └── venv/ (ignored) ├── demo-frontend/ # Next.js Frontend │ ├── src/ │ ├── public/ │ └── package.json ├── README.md └── .gitignore
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -37,24 +34,17 @@ You must create it yourself:
 
 Open the Jupyter Notebook located at:
 
-bash
-Copy
-Edit
 demo-backend/radiograph_ai.ipynb
 Run the notebook cells.
 
 After training, it will automatically create a file:
 
-bash
-Copy
-Edit
+
 demo-backend/pneumonia_detector.h5
 ✅ Now you are ready to run the backend.
 
 3. Setup and Run Backend (FastAPI)
-bash
-Copy
-Edit
+
 cd demo-backend
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
@@ -65,9 +55,7 @@ The backend will be live at http://localhost:8000
 Test API using Swagger UI at http://localhost:8000/docs
 
 4. Setup and Run Frontend (Next.js)
-bash
-Copy
-Edit
+
 cd ../demo-frontend
 npm install
 npm run dev
@@ -117,32 +105,3 @@ Copy
 Edit
 
 ---
-
-# 🛠 **Small Reminder**
-
-✅ Make sure you really add the `radiograph_ai.ipynb` notebook into `demo-backend/` before pushing again.
-
-✅ Then update your GitHub repo to match this README!
-
-✅ You’re done! 🎯
-
----
-
-# 🎉 **Final Project is READY**
-
-| What you now have | Status |
-|:------------------|:-------|
-| Backend (FastAPI) | ✅ |
-| Frontend (Next.js) | ✅ |
-| Model Training Notebook (.ipynb) | ✅ |
-| No large files in GitHub | ✅ |
-| Full README | ✅ |
-
----
-
-💬  
-**Would you like me to also show you how to add a nice GitHub banner / badges (like "Made with FastAPI" or "TensorFlow") on top of your README?** 🎯
-
-(They make your repo look even cooler 🚀)  
-Let’s go if you want! 🚀✨  
-Otherwise, CONGRATS!!! 🎉 You just completed a full-stack AI project!!
