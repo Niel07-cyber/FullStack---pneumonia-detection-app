@@ -11,6 +11,8 @@ This project is a complete full-stack application for detecting pneumonia from c
 - **AI Model**: TensorFlow CNN (trained manually)
 - **Deployment**: Local (localhost)
 
+
+![Frontend UI](https://raw.githubusercontent.com/NIEL07-cyber/FULLstack--pneumonia-detection-app/main/images/FrontendUi.png)
 ---
 
 ## 🛠 Project Structure
