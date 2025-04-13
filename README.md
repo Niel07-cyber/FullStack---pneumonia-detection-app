@@ -17,8 +17,21 @@ This project is a complete full-stack application for detecting pneumonia from c
 
 ## 🛠 Project Structure
 
-projetai/ ├── demo-backend/ # FastAPI Backend │ ├── main.py │ ├── pneumonia_detector.h5 # Model file (must be created manually) │ ├── radiograph_ai.ipynb # Notebook to train the model │ └── venv/ (ignored)
-├── demo-frontend/ # Next.js Frontend │ ├── src/ │ ├── public/ │ └── package.json ├── README.md └── .gitignore
+📁 projetai/
+📁 demo-backend/               # FastAPI Backend
+📄 main.py
+📄 pneumonia_detector.h5   # Model file (must be created manually)
+📄 radiograph_ai.ipynb     # Notebook to train the model
+📁 venv/                   # (ignored)
+📁 demo-frontend/              # Next.js Frontend
+📁 src/
+📁 public/
+📄 package.json
+📁 images/                     # Screenshots and diagrams
+📄 frontend-ui.png
+📄 swagger-ui.png
+📄 README.md
+📄 .gitignore
 
 
 ---
